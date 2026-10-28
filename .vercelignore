@@ -1,0 +1,25 @@
+# Dependencies and builds
+node_modules
+dist
+frontend/node_modules
+frontend/dist
+
+# Tests and caches
+.pytest_cache
+backend/.pytest_cache
+backend/tests
+__pycache__
+*.pyc
+
+# Docker & local scripts
+Dockerfile
+*/Dockerfile
+docker-compose.yml
+run-docker.bat
+run-docker.ps1
+.dockerignore
+*/.dockerignore
+
+# Git
+.git
+.gitignore
